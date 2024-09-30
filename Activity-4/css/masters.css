@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50; /* Hex */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: blue; /* Added blue color for the main heading */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9); /* RGBA */
+}
+
+figure {
+    text-align: center;
+}
+
+#product-image {
+    width: 100%; /* Responsive */
+    height: 300px; /* Set height for the cold air intake image */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.review {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: hsl(210, 100%, 95%); /* HSL */
+}
+
+.review-text {
+    color: rgb(51, 51, 51); /* RGB */
+}
+
+.review h3 {
+    color: red; /* Added red color for review titles */
+}
+
+.review:hover {
+    background-color: hsla(210, 100%, 90%, 0.5); /* HSLA */
+}
+
+#description::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Attribute Selector Example */
+img[alt="Cold Air Intake"] {
+    border: 2px solid #ccc;
+}
