@@ -1,8 +1,8 @@
-let user = 'John'; // Change to your desired user name
-let salutation = 'Hello, ';
-let greeting = salutation + user + '! Here are the latest reviews on parts.';
+var user = 'John'; // Change to your desired user name
+var salutation = 'Hello, ';
+var greeting = salutation + user + '! Here are the latest reviews on parts.';
 
-let greetingEl = document.getElementById('greeting');
+var greetingEl = document.getElementById('greeting');
 greetingEl.textContent = greeting;
 
 var price = 60,
