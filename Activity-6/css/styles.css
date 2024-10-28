@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .messages {
+    padding: 10px;
+    border: 1px solid #ddd;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .in-message {
+    color: blue;
+  }
+  
+  .out-message {
+    color: green;
+    text-align: right;
+  }
+  
+  input, button {
+    padding: 5px;
+    margin: 5px;
+  }
+  
