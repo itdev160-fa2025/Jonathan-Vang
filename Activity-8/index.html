@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Blog App</title>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="header-title">My Unique Blog</h1>
+    <div class="header-menu">
+      <button id="new-button">New Post</button>
+    </div>
+  </header>
+  <main>
+    <section id="display-content">
+      <!-- Blog posts will appear here -->
+    </section>
+  </main>
+  <footer>
+    <p>Powered by My Unique Blog Platform</p>
+  </footer>
+  <!-- Modal -->
+  <div id="modal-backdrop" class="hidden"></div>
+  <div id="modal" class="hidden">
+    <h2>New Blog Post</h2>
+    <input type="text" id="post-title" placeholder="Title">
+    <textarea id="post-content" placeholder="Write your post here..."></textarea>
+    <div class="modal-buttons">
+      <button id="save-button">Save</button>
+      <button id="cancel-button">Cancel</button>
+    </div>
+  </div>
+</body>
+</html>
